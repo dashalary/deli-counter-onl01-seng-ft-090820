@@ -15,7 +15,7 @@ katz_deli.each { |customer| puts "The line is currently: #{counter}. #{customer}
      
 # puts "The line is currently: #{currentline}"
 
-  
+end
 end
 end
 
