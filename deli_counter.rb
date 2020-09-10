@@ -11,7 +11,7 @@ counter = counter + 1
 line.push("#{i + 1}. #{katz_deli[i]}")
      
 puts "The line is currently: #{line.join(", ")}"
-  
+end  
 end
 end
 
