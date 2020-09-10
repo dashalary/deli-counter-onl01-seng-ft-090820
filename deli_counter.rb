@@ -18,7 +18,7 @@ if katz_deli.length == 0
 puts "The line is currently empty."
 else
 for (let i = 0; i < katz_deli.length; i++) {
-     line.push(`${i + 1}. ${katzDeliLine[i]}`);
+     line.push(`${i + 1}. ${katz_deli[i]}`)
      
    }
    return `The line is currently: ${peopleInLine.join(", ")}`;
