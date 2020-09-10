@@ -5,10 +5,12 @@ if katz_deli.length == 0
 puts "The line is currently empty."
 elsif katz_deli.length > 0 
 counter = 0 
-loop do 
-counter += 1
-katz_deli.each { |customer| puts "The line is currently: #{counter}. #{customer}" }
 
+katz_deli.each do |customer| 
+  counter += 1 "The line is currently: #{counter}. #{customer}" 
+end
+if counter > katz_deli.length 
+break
 
 end
 end
