@@ -7,8 +7,8 @@ elsif katz_deli.length > 0
 counter = 0 
 loop do 
 counter = counter + 1 
-  
-line.push("#{i + 1}. #{katz_deli[i]}")
+i = 0
+line.push("#{counter}. #{katz_deli[i]}")
      
 puts "The line is currently: #{line.join(", ")}"
 end  
