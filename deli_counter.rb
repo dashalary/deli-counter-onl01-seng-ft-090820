@@ -18,12 +18,12 @@ def take_a_number(katz_deli, name)
 katz_deli.push(name)
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
- 
-# # function nowServing(katzDeliLine) {
-   
-# #   if (katzDeliLine.length === 0) {
-# #   return `There is nobody waiting to be served!`
-# # } else { return `Currently serving ${katzDeliLine.shift()}.`
-# #   } 
-# # }
+
+def now_serving(katz_deli)
+if katz_deli.length == 0 
+puts "There is nobody waiting to be served!"
+else 
+
+end
+end
  
