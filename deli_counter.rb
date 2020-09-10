@@ -5,7 +5,7 @@ if katz_deli.length == 0
 puts "The line is currently empty."
 elsif katz_deli.length > 0 
 counter = 0 
-katz_deli.length.times do 
+loop do 
 counter += 1
 katz_deli.each { |customer| puts "The line is currently: #{counter}. #{customer}" }
 
