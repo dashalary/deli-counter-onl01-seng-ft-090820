@@ -4,6 +4,7 @@ def line(katz_deli)
 if katz_deli.length == 0 
 puts "The line is currently empty."
 elsif katz_deli.length > 0 
+puts katz_deli
 # counter = 0 
 # loop do 
 # counter += 1
@@ -11,8 +12,9 @@ elsif katz_deli.length > 0
 # currentline = katz_deli.join(", ")
 # currentline.push("#{counter}. #{katz_deli[i]}")
      
-puts "The line is currently: #{currentline}"
-end  
+# puts "The line is currently: #{currentline}"
+
+  
 end
 end
 
