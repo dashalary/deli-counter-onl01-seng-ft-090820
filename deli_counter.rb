@@ -4,15 +4,15 @@ def line(katz_deli)
 if katz_deli.length == 0 
 puts "The line is currently empty."
 elsif katz_deli.length > 0 
-puts katz_deli
-# counter = 0 
-# loop do 
-# counter += 1
-# katz_deli.each { |customer| 
-# currentline = katz_deli.join(", ")
-# currentline.push("#{counter}. #{katz_deli[i]}")
+
+counter = 0 
+loop do 
+counter += 1
+katz_deli.each { |customer| 
+currentline = katz_deli.join(", ")
+currentline.push("#{counter}. #{katz_deli[i]}")
      
-# puts "The line is currently: #{currentline}"
+puts "The line is currently: #{currentline}"
 
   
 end
