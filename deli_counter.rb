@@ -15,7 +15,7 @@ break
 # currentline.push("#{counter}. #{katz_deli[i]}")
      
 # puts "The line is currently: #{currentline}"
-
+end
 end
 end
 end
