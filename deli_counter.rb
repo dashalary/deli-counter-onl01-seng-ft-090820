@@ -9,7 +9,7 @@ loop do
 counter += 1
 katz_deli.each { |customer| puts "The line is currently: #{counter}. #{customer}" }
 
-end
+
 end
 end
 end
