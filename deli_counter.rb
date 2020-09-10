@@ -9,7 +9,8 @@ counter = 0
 loop do 
 counter += 1
 katz_deli.each { |customer| puts "The line is currently: #{counter}. #{customer}" }
-
+if counter > katz_deli.length 
+break
 # currentline = katz_deli.join(", ")
 # currentline.push("#{counter}. #{katz_deli[i]}")
      
