@@ -7,7 +7,7 @@ elsif katz_deli.length > 0
 counter = 0 
 loop do 
 counter += 1
-katz_deli.each { |customer| "#{customer}".unshift("#{counter}") }
+katz_deli.each { |customer| prints "There are currently #{counter}. #{customer} in line" }
 
 
 end
