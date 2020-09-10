@@ -20,6 +20,6 @@ else
 for (let i = 0; i < katz_deli.length; i++) do
      line.push(`${i + 1}. ${katz_deli[i]}`)
      
-  puts `The line is currently: #{line.join(", ")}`
+puts `The line is currently: #{line.join(", ")}`
 end 
 end
