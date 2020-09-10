@@ -1,11 +1,18 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli.length == 0 
-    puts "The line is currently empty."
-  elsif katz_deli.length > 0 
+if katz_deli.length == 0 
+puts "The line is currently empty."
+elsif katz_deli.length > 0 
+counter = 0 
+loop do 
+counter = counter + 1 
   
-  end
+line.push("#{i + 1}. #{katz_deli[i]}")
+     
+puts "The line is currently: #{line.join(", ")}"
+  
+end
 end
 
 # def take_a_number(katz_deli, name)
@@ -21,13 +28,3 @@ end
 # #   } 
 # # }
  
-# def line
-# if katz_deli.length == 0
-# puts "The line is currently empty."
-# else
-# for (let i = 0; i < katz_deli.length; i++) 
-#     line.push(`${i + 1}. ${katz_deli[i]}`)
-     
-# puts `The line is currently: #{line.join(", ")}`
-# end 
-# end
