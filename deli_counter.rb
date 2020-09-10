@@ -1,9 +1,9 @@
 katz_deli = []
 
-function takeANumber(katzDeliLine, name) {
-katzDeliLine.push(name)
- return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
-  } 
+def take_a_number(katz_deli, name)
+katz_deli.push(name)
+puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+end
  
  function nowServing(katzDeliLine) {
    
