@@ -11,7 +11,6 @@ katz_deli.each do |customer|
   sentence += " #{counter}. #{customer}" 
 end
 puts sentence
-
 end
 end
 
