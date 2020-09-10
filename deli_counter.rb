@@ -6,11 +6,12 @@ puts "The line is currently empty."
 elsif katz_deli.length > 0 
 counter = 0 
 loop do 
-counter = counter + 1 
-i = 0
-line.push("#{counter}. #{katz_deli[i]}")
+counter += 1
+katz_deli.each { |customer| 
+currentline = katz_deli.join(", ")
+currentline.push("#{counter}. #{katz_deli[i]}")
      
-puts "The line is currently: #{line.join(", ")}"
+puts "The line is currently: #{currentline}"
 end  
 end
 end
