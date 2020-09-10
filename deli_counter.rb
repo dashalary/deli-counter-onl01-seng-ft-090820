@@ -9,7 +9,7 @@ counter = 0
 loop do 
 counter += 1
 katz_deli.each { |customer| line1 << "#{counter}. #{customer}" }
-puts "The line is currently: #{counter}. #{katz_deli}"
+puts "The line is currently: #{line1}"
 
 end
 end
