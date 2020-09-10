@@ -8,7 +8,7 @@ counter = 0
 sentence = "The line is currently: "
 katz_deli.each do |customer| 
   counter += 1
-  sentence += " #{counter}. #{customer}" 
+  sentence += "#{counter}. #{customer} " 
 end
 puts sentence
 
