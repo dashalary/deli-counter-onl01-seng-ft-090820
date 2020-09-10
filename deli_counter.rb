@@ -5,14 +5,13 @@ if katz_deli.length == 0
 puts "The line is currently empty."
 elsif katz_deli.length > 0 
 counter = 0 
-
+sentence = "The line is currently:"
 katz_deli.each do |customer| 
-  counter += 1 "The line is currently: #{counter}. #{customer}" 
+  counter += 1
+  sentence += "#{counter}. #{customer}" 
 end
-if counter > katz_deli.length 
-break
+puts sentence
 
-end
 end
 end
 
